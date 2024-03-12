@@ -13,6 +13,8 @@
 		C90AB17F2BA04BCC00488CE7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C90AB17D2BA04BCC00488CE7 /* Main.storyboard */; };
 		C90AB1812BA04BCF00488CE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C90AB1802BA04BCF00488CE7 /* Assets.xcassets */; };
 		C90AB1842BA04BCF00488CE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C90AB1822BA04BCF00488CE7 /* LaunchScreen.storyboard */; };
+		C90AB18C2BA04D3600488CE7 /* DetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90AB18B2BA04D3600488CE7 /* DetailsVC.swift */; };
+		C90AB18E2BA068D800488CE7 /* SimpsonClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90AB18D2BA068D800488CE7 /* SimpsonClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		C90AB1802BA04BCF00488CE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C90AB1832BA04BCF00488CE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C90AB1852BA04BCF00488CE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C90AB18B2BA04D3600488CE7 /* DetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsVC.swift; sourceTree = "<group>"; };
+		C90AB18D2BA068D800488CE7 /* SimpsonClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpsonClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				C90AB1802BA04BCF00488CE7 /* Assets.xcassets */,
 				C90AB1822BA04BCF00488CE7 /* LaunchScreen.storyboard */,
 				C90AB1852BA04BCF00488CE7 /* Info.plist */,
+				C90AB18B2BA04D3600488CE7 /* DetailsVC.swift */,
+				C90AB18D2BA068D800488CE7 /* SimpsonClass.swift */,
 			);
 			path = SimpsonBook;
 			sourceTree = "<group>";
@@ -138,7 +144,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C90AB18E2BA068D800488CE7 /* SimpsonClass.swift in Sources */,
 				C90AB17C2BA04BCC00488CE7 /* ViewController.swift in Sources */,
+				C90AB18C2BA04D3600488CE7 /* DetailsVC.swift in Sources */,
 				C90AB1782BA04BCC00488CE7 /* AppDelegate.swift in Sources */,
 				C90AB17A2BA04BCC00488CE7 /* SceneDelegate.swift in Sources */,
 			);
